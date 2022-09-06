@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 300;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(157, 239, 225);
+}
+
+.inside{
+    width: 50vw;
+    background-color: rgb(248, 243, 243);
+    padding: 5rem 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1.2rem -0.5rem;
+}
+
+.inside h2{
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin: 1rem 0 4rem 0;
+}
+
+.inside li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+input{
+    cursor: pointer;
+}
+#submit, 
+.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#submit:hover{
+     background-color: rgb(126, 169, 249);
+}
+#Result{
+    background-color: whitesmoke;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1.2rem -0.5rem;
+}
+#Result h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#Result .btn{
+    margin-top: 2rem;
+    background-color: aqua;
+    color: black;
+}
+
+#Result .btn:hover{
+    background-color: rgb(149, 237, 237);
+    color: #fff;
+}
+
+.score{
+    display: none;
+}
